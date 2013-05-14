@@ -48,3 +48,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'thin', '1.5.1'
