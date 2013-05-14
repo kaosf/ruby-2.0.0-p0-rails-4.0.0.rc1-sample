@@ -1,4 +1,8 @@
+<% if item == @latest_item %>
+    <tr id="latest_item">
+<% else %>
     <tr>
+<% end %>
       <td><%= item.name %></td>
       <td><%= item.price %></td>
       <td><%= link_to 'Show', item %></td>
